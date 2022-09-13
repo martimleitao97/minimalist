@@ -1,2 +1,2 @@
 # minimalist
-Minimalist layout for Stata plots
+This .ado file uses Ben Jann's grstyle command to creat a minimalist layout for Stata plots. 
