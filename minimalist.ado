@@ -38,6 +38,15 @@ program define minimalist
 	// Adjust label size
 	grstyle set size 7pt: tick_label key_label
 	grstyle set size 8pt: subheading axis_title
+	
+	// Number of default ticks
+	
+	 program grstyle_set_myticks
+		 file write $GRSTYLE_FH "numticks_g horizontal_major 8" _n
+		 file write $GRSTYLE_FH "numticks_g vertical_major   8" _n
+    	 end
+			
+	grstyle set myticks
 			
 end
 
