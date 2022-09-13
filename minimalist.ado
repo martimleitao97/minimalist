@@ -25,9 +25,9 @@ program define minimalist
 
 	// Define color for scatters
     grstyle color p1markline midblue%0
-    grstyle color p1markfill midblue%80
+    grstyle color p1markfill midblue%60
     grstyle color p2markline cranberry%0
-    grstyle color p2markfill cranberry%80
+    grstyle color p2markfill cranberry%60
 	
 	// Define color for connected plots and line plots
 	grstyle color p1line midblue%0
