@@ -7,6 +7,8 @@ program define minimalist
 	* Dependencies: grstyle by Ben Jann
 
 	ssc install grstyle
+	ssc install colrspace
+	ssc install palettes
 	set scheme s2color
 	
 	// Initialize 
